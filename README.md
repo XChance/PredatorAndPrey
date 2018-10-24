@@ -1,17 +1,19 @@
 # Predator and Prey
 
-This is my version of the Predator and Prey Cellular Automaton. This was largely inspired by Hopson97.
+This is my version of the Predator and Prey Cellular Automaton. This was largely inspired by @Hopson97.
 
-I'd like to quickly give Hopson97 kudos, as his version helped to give me an idea of how I could handle each cell. In addition,
+I'd like to quickly give him kudos, as his version helped to give me an idea of how I could handle each cell. In addition,
 I used his files for Random Number Generation as his is far bette than my own previous implementation.
 
-##Automaton Rules
+## Automaton Rules
 
 Each cell is 4 x 4 Pixels.
 One cell represents a creature.
 
 **Black cells** are dead/nothing
+
 **Green cells** are Prey
+
 **Red cells** are Predators
 
 Every **living** cell moves randomly with each update.
