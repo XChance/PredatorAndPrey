@@ -3,12 +3,14 @@
 This is my version of the Predator and Prey Cellular Automaton. This was largely inspired by @Hopson97.
 
 I'd like to quickly give him kudos, as his version helped to give me an idea of how I could handle each cell. In addition,
-I used his files for Random Number Generation as his is far bette than my own previous implementation.
+I used his files for Random Number Generation as his is far better than my own previous implementation.
 
 ## Automaton Rules
 
 Each cell is 4 x 4 Pixels.
+
 One cell represents a creature.
+
 
 **Black cells** are dead/nothing
 
@@ -16,13 +18,16 @@ One cell represents a creature.
 
 **Red cells** are Predators
 
+
 Every **living** cell moves randomly with each update.
+
 
 **Predators:**
 Lose health every tick
 If it tries to move onto a prey, the predator gains half of the prey’s health and turns the prey into a predator (Predator reproduction)
 If it tries to move onto a fellow predator, then it does nothing.
 If it tries to move onto nothing then it does.
+
 
 **Prey:**
 Gain health every tick
