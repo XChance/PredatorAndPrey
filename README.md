@@ -35,3 +35,6 @@ Once health reaches a certain threshold, they can reproduce
 If it tries to move onto nothing and it is able to reproduce, then it creates a new Prey cell on the dead tile instead.
 If it tries to move onto nothing and it cannot reproduce, then it does.
 If it tries to move onto a Predator or Prey cell, then it does nothing.
+
+## Example
+![](sample_run.gif)
