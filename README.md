@@ -5,6 +5,8 @@ This is my version of the Predator and Prey Cellular Automaton. This was largely
 I'd like to quickly give him kudos, as his version helped to give me an idea of how I could handle each cell. In addition,
 I used his files for Random Number Generation as his is far better than my own previous implementation.
 
+If you decided to run this code, press spacebar at the beginning to start the automaton.
+
 ## Automaton Rules
 
 Each cell is 4 x 4 Pixels.
